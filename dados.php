@@ -46,7 +46,7 @@
         <input type="submit" value="Enviar">
     </form>
     <div class="itens">
-        <a href="login.php">Login</a>
+        <a href="index.php">Login</a>
         <a href="dados.php">Cadastre-se</a>
         <a href="visualisar.php">visualisar</a>
     </div>

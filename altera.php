@@ -16,7 +16,7 @@
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
     $genero = $_POST["genero"];
-    $email = $_GET["email"];
+    $email = $_POST["email"];
     $senha = $_POST["senha"];
 
     $sql = "UPDATE dados
@@ -33,7 +33,7 @@
     ?>
 
     <div class="itens">
-        <a href="login.php">Login</a>
+        <a href="Index.php">Login</a>
         <a href="dados.php">Cadastre-se</a>
         <a href="visualisar.php">visualisar</a>
     </div>
