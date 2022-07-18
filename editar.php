@@ -43,7 +43,7 @@
                                                                 ?> />Outro
 
             </p>
-            <p>Email: <input type="email" name="preco" value="<?= $linha['email'] ?>" /></p>
+            <p>Email: <input type="email" name="email" value="<?= $linha['email'] ?>" /></p>
 
             <p>Senha <input type="password" name="senha" value="<?= $linha['senha'] ?>" /></p>
 

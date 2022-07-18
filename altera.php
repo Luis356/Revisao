@@ -23,12 +23,6 @@
     SET nome='$nome', idade='$idade', genero='$genero', email='$email', senha='$senha' WHERE id='$id'";
 
     $result = $con->query($sql);
-    if ($con->affected_rows > 0) {
-        echo "<h1>Alterado com suceso!</h1>";
-    } else {
-        echo "<h1>Ocorreu um Erro</h1>";
-        echo "<p>{$con->error}</p>";
-    }
 
     ?>
 
